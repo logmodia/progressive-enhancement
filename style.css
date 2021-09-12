@@ -1,0 +1,19 @@
+a :link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: blanchedalmond;
+    background-color: #0009a5;
+}
+
+p {
+    font-family: serif;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: darkgrey;
+}
