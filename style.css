@@ -1,9 +1,10 @@
-a :link {
+a:link {
     text-decoration: none;
 }
 
 a:visited {
-    color: brown;
+    color: rgb(151, 5, 5);
+    text-decoration:none;
 }
 
 a:hover {
@@ -13,7 +14,34 @@ a:hover {
 
 p {
     font-family: serif;
-    font-size: medium;
-    letter-spacing: 2px;
-    color: darkgrey;
+    font-size: large;
+    letter-spacing: 1px;
+    color: rgb(3, 3, 61);
+}
+
+body {
+    width: 90%;
+    margin-right:100px;
+    margin-left:100px;
+    
+    background: -webkit-linear-gradient(120deg, rgb(250, 250, 250), rgb(214, 231, 245)); /*powered by http://www.colinkeany.com/blend/ */
+    background: linear-gradient(120deg, rgb(250, 250, 250), rgb(214, 231, 245));
+    background-image: url("./backg1.png");
+    background-repeat: no-repeat; 
+    background-position: bottom;
+    background-position: right;
+    background-size: cover;
+
+}
+
+blockquote {
+    width: 45%;
+    margin-right:300px;
+    margin-left:300px;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
