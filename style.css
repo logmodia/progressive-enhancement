@@ -44,4 +44,19 @@ blockquote {
     padding-left: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
+    font-style: italic;
+}
+
+q {
+    font-style: italic;
+    
+}
+
+q.farmer {
+    border-left: 3px solid blue;
+    padding-left: 5px;
+}
+q.villagers {
+    border-left: 3px solid brown;
+    padding-left: 5px;
 }
