@@ -119,3 +119,12 @@ div.notif {
     font-size: large;
     font-weight: bold;
 }
+
+table {
+    width :300px;
+    
+}
+
+tr,th,td {
+    border: 1px solid;
+}
