@@ -1,3 +1,16 @@
+
+ @font-face {
+    font-family: OpenSans-Light;
+    font-family: OpenSans-ExtraBoldItalic;
+    src:url(./OpenSans-Light.ttf);
+    src:url(./OpenSans-ExtraBoldItalic.ttf);
+}
+
+* {
+    font-family: OpenSans-Light !important; 
+}
+
+
 a:link {
     text-decoration: none;
 }
@@ -89,4 +102,20 @@ p.firstp {
 
 .floatleft {
     float: right;
+}
+
+div.notif {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+
+    background-color: yellow;
+    width: 190px;
+    height: 25px;
+    padding: 5px;
+
+    text-align: center;
+
+    font-size: large;
+    font-weight: bold;
 }
